@@ -1,49 +1,44 @@
 # Tesi Magistrale in Scienze Statistiche ed Economiche (CLAMSES)
 # Confronto tra Modelli GARCH e Reti Neurali nella Previsione della Matrice di Varianza-Covarianza dei Titoli Azionari
 
-Descrizione del progetto
+## Descrizione del progetto
 Questo progetto è parte di una tesi magistrale in ambito econometrico-finanziario e ha l'obiettivo di confrontare la capacità previsiva delle matrici di varianza-covarianza future dei rendimenti azionari, utilizzando due approcci metodologici distinti:
 
-Modelli GARCH multivariati
-
-Reti Neurali (Deep Learning)
+- **Modelli GARCH multivariati**
+- **Reti Neurali (Deep Learning)**
 
 L'analisi si concentra sui titoli azionari che hanno fatto parte ininterrottamente dell’indice MIB 30 (oggi FTSE MIB) dal 2008 ad oggi, garantendo così una coerenza temporale e una base dati stabile.
 
-Obiettivi principali
-Costruzione e stima delle matrici di varianza-covarianza con modelli econometrici GARCH (es. DCC-GARCH).
+## Obiettivi principali
+- Costruzione e stima delle matrici di varianza-covarianza con modelli econometrici GARCH (es. DCC-GARCH).
 
-Progettazione e addestramento di modelli di rete neurale per la previsione delle stesse matrici.
+- Progettazione e addestramento di modelli di rete neurale per la previsione delle stesse matrici.
 
-Valutazione e confronto della performance previsiva dei due approcci tramite metriche quantitative (es. Frobenius norm, log-likelihood out-of-sample, errori di previsione su portafogli simulati, ecc.).
+- Valutazione e confronto della performance previsiva dei due approcci tramite metriche quantitative.
 
-Analisi della robustezza dei modelli in differenti contesti di volatilità (crisi finanziaria, ripresa, shock macroeconomici, ecc.).
+## Struttura del repository
+- data/ – Dataset utilizzati (o script per la loro raccolta)
 
-Struttura del repository
-data/ – Dataset utilizzati (o script per la loro raccolta)
+- notebooks/ – Notebook Jupyter con le fasi di preprocessing, modellazione e analisi
 
-notebooks/ – Notebook Jupyter con le fasi di preprocessing, modellazione e analisi
+- models/ – Implementazioni dei modelli GARCH e delle reti neurali
 
-models/ – Implementazioni dei modelli GARCH e delle reti neurali
+- results/ – Risultati delle simulazioni e delle valutazioni
 
-results/ – Risultati delle simulazioni e delle valutazioni
+- README.md – Questa descrizione del progetto
 
-utils/ – Funzioni di supporto (metriche, gestione dei dati, visualizzazione)
+## Tecnologie utilizzate
+- Python (NumPy, Pandas, SciPy)
 
-README.md – Questa descrizione del progetto
+- Statsmodels, Arch, yFinance
 
-Tecnologie utilizzate
-Python (NumPy, Pandas, SciPy)
+- TensorFlow / PyTorch per le reti neurali
 
-Statsmodels, Arch, yFinance
+- Matplotlib / Seaborn per la visualizzazione
 
-TensorFlow / PyTorch per le reti neurali
+- Jupyter Notebook
 
-Matplotlib / Seaborn per la visualizzazione
+- Git per il versionamento
 
-Jupyter Notebook
-
-Git per il versionamento
-
-Note
+## Note
 Il progetto ha finalità accademiche e si inserisce in un percorso di approfondimento metodologico sull’utilizzo di tecniche di machine learning in ambito finanziario, confrontandole con approcci statistici tradizionali.
