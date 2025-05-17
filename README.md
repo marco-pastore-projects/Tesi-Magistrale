@@ -1,5 +1,4 @@
-# Tesi Magistrale in Scienze Statistiche ed Economiche (CLAMSES)
-# Confronto tra Modelli GARCH e Reti Neurali nella Previsione della Matrice di Varianza-Covarianza dei Titoli Azionari
+# Tesi Magistrale in Scienze Statistiche ed Economiche (CLAMSES): Confronto tra Modelli GARCH e Reti Neurali nella Previsione della Matrice di Varianza-Covarianza dei Titoli Azionari
 
 ## Descrizione del progetto
 Questo progetto è parte di una tesi magistrale in ambito econometrico-finanziario e ha l'obiettivo di confrontare la capacità previsiva delle matrici di varianza-covarianza future dei rendimenti azionari, utilizzando due approcci metodologici distinti:
